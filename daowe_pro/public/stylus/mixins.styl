@@ -1,0 +1,29 @@
+$red = #db3a34
+$yellow = #ffc857
+$green = #177e89
+$deepblue = #084c61
+$gray = #e5e5e5
+
+clearFix()
+  zoom 1
+  &::after
+    display block
+    content ''
+    clear both
+
+child-to-center()
+  &>*
+    width 1200px
+    margin 0 auto
+last-line-ellipsis($lineHeight)
+  position relative
+  &::after
+    content '...'
+    position absolute
+    height $lineHeight
+    width $lineHeight
+    right 0
+    background #fff
+    bottom 0
+
+

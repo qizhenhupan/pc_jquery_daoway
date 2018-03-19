@@ -1,0 +1,247 @@
+@import './mixins.styl'
+@import './public.styl'
+
+body
+  text-align center
+.home-header
+  border-bottom 1px solid $gray
+  child-to-center()
+  .header-box
+    height 40px
+    display flex
+    padding 10px 20px 20px
+    .header-logo
+      margin-left 10px
+      width 240px
+    .nav-list
+      display flex
+      align-items center
+      height 100%
+      line-height 40px
+      .nav-item
+        font-weight bold
+        height 100%
+        margin-left 30px
+        .nav-link
+          height 100%
+          &.on
+            color $red
+      .nav-item.city
+        margin 0 50px 0 120px
+        .icon
+          margin-right -5px
+          margin-top -1px
+      .nav-item.shangjia
+        .nav-link
+          height 30px
+          padding 0 5px
+          background $red
+          line-height 30px
+          border-radius 4px
+          margin-top 5px
+          color #fff
+.home-content
+  .home-carousel-box
+    height 420px
+    .swiper-pagination-bullet-active
+      display inline-block
+      width 20px
+      border-radius 5px
+      background red;
+    .swiper-slide:nth-child(1)
+      background url("../images/homepage/banner1.jpg") center
+    .swiper-slide:nth-child(2)
+      background url("../images/homepage/banner2.jpg") center
+    .swiper-slide:nth-child(3)
+      background url("../images/homepage/banner3.jpg") center
+    .fixed-wrapper
+      width 1200px
+      height 420px
+      margin -420px auto 0
+      position relative
+      z-index 1
+      .fixed
+        height 420px
+        font-weight bold
+        width 180px
+        position absolute
+        top 0
+        .nav-item
+          height 42px
+          line-height 42px
+        &.nav-list
+          background #757881
+          left 30px
+          .nav-item
+            color #fff
+            padding-left 5px
+            &::before
+              visibility hidden
+              float right
+              margin-top 16px
+              margin-left -12px
+              content ''
+              border 6px solid;
+              border-color transparent #fff transparent transparent
+            img
+              margin-left 25px
+            &:hover
+              background #656565
+              .second-nav-list,&::before
+                visibility  visible
+              img
+                visibility hidden
+            .second-nav-list
+              text-align center
+              visibility hidden
+              left 180px
+              height 420px
+              .nav-item
+                background rgba(255,255,255,.8)
+                color #000
+                &:hover
+                  color red
+  .home-service-box
+    child-to-center()
+    padding-bottom 20px
+    .service-item
+      height 496px
+      padding-top 50px
+      .title
+        font-size 28px
+        font-weight bold
+      .service-list
+        text-align
+        &>a
+          color #000
+          font-size 20px
+          font-weight 200
+          margin-left 15px
+          display inline-block
+          transition color .5s
+          &.more
+            color #888
+            float right
+            margin-left -90px
+          &:hover
+           color $red
+      .img-list
+        display flex
+        justify-content space-around
+        .img-item
+          flex 0 0 230px
+          height 345px
+          box-sizing border-box
+          padding 10px
+          border 1px solid gray
+          >p
+           margin 0
+          .service-img
+            width 210px
+          .service-title
+            margin 10px 0
+            text-align left
+            font-weight bold
+          .service-description
+            display -webkit-box
+            -webkit-box-orient vertical
+            -webkit-line-clamp 2
+            overflow hidden
+            text-align left
+            line-height 18px
+            max-height 36px
+            font-size 13px
+            color #888888
+          .service-price
+            margin-top 12px
+            height 26px
+            line-height 26px
+            .price
+              font-weight bold
+              float left
+              margin-left 10px
+              color red
+              .num
+                font-size 18px
+            .detail
+              float right
+              width 90px
+              color #fff
+              background $red
+              border-radius 4px
+    &:nth-child(odd)
+      background lightgreen
+.home-footer
+  text-align left
+  .title
+    font-size 20px
+    font-weight bold
+  .description-box
+    child-to-center()
+    .description
+      text-align center
+      margin 50px auto
+      .daowei-promise
+        margin-bottom 10px
+        font-weight bold
+        font-size 30px
+        .color
+          color red
+      .details
+        margin 20px 0
+        font-size 25px
+      .icons
+        font-size 22px
+        .icon-list
+          clearFix()
+          .icon-item
+            display inline-block
+            margin 0 13px
+            img
+              margin-top -2px
+    .city-box
+      overflow hidden
+      display flex
+      .title
+        flex 0 1 100px
+      .city-list
+        flex 1
+        overflow hidden
+        margin-left 20px
+
+        .city
+          font-weight 200
+          font-family '微软雅黑'
+          width 9.09%
+          text-align center
+          line-height 30px
+          color #aaa
+          height 30px
+          float left
+  .cooperation-box
+    child-to-center()
+    padding-top 20px
+    background #eee
+    overflow hidden
+    .cooperations
+      .cooperation-list
+        clearFix()
+        .cooperation-item
+          float left
+          width 120px
+          height 60px
+          margin-left 15px
+          margin-bottom 20px
+          line-height 60px
+          background #fff
+          text-align center
+          &:nth-child(9n+1)
+            margin-left 0
+          img
+            width 100px
+    .copyrights
+      color #999
+      font-size 16px
+      margin-bottom 20px
+      small
+        font-size 90%
