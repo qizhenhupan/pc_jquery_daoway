@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86d706e-0c0d-441b-a691-3c6d7c11a80f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/public/fuwushang.html" afterPath="$PROJECT_DIR$/daowe_pro/public/fuwushang.html" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/public/item.html" afterPath="$PROJECT_DIR$/daowe_pro/public/item.html" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/public/javascripts/fuwushang.js" afterPath="$PROJECT_DIR$/daowe_pro/public/javascripts/fuwushang.js" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/public/javascripts/index.js" afterPath="$PROJECT_DIR$/daowe_pro/public/javascripts/index.js" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/public/javascripts/service.js" afterPath="$PROJECT_DIR$/daowe_pro/public/javascripts/service.js" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/public/service.html" afterPath="$PROJECT_DIR$/daowe_pro/public/service.html" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/readme.md" afterPath="$PROJECT_DIR$/daowe_pro/readme.md" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/routes/index.js" afterPath="$PROJECT_DIR$/daowe_pro/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="659">
-                <caret line="74" column="56" lean-forward="false" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+              <first_editor relative-caret-position="494">
+                <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -213,12 +204,12 @@
       <workItem from="1521479993874" duration="4676000" />
       <workItem from="1521523072433" duration="5348000" />
       <workItem from="1521594438588" duration="7776000" />
-      <workItem from="1521611778525" duration="22396000" />
+      <workItem from="1521611778525" duration="22534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104819000" />
+    <option name="totallyTimeSpent" value="104957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="180" y="0" width="1706" height="1102" extended-state="0" />
@@ -232,7 +223,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39205155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17152962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29001075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29001075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -808,8 +799,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="659">
-            <caret line="74" column="56" lean-forward="false" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+          <first_editor relative-caret-position="494">
+            <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor>
