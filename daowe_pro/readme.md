@@ -34,3 +34,18 @@
 
     # $.get(url,function(data,statusText){})
         利用$发送ajax
+    ###
+        问题：
+            使用swiper创建轮播图，
+            但是无法禁止交互！
+            noSwiping true,
+            但是没有效！
+
+    ### 第二天
+        + 关于package-lock.json
+            这是一个npm 5版本以上的文件，用于记录依赖安装。
+            防止npm i 时，重复安装！
+            但是某些版本可能会有问题，会将原来的依赖缓存删除，但是
+            npm start是按照package-lock.json寻找，
+            出现找不到依赖的情况！
+        - 2

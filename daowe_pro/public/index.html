@@ -61,12 +61,10 @@
 </header>
 <main class="home-content">
     <div class="home-carousel-box swiper-container" id="carousel">
-
         <div class="swiper-wrapper">
-            <div class="swiper-slide swiper-no-swiping">
-            </div>
-            <div class="swiper-slide swiper-no-swiping"></div>
-            <div class="swiper-slide swiper-no-swiping"></div>
+            <div class="swiper-slide stop-swiping"></div>
+            <div class="swiper-slide stop-swiping"></div>
+            <div class="swiper-slide stop-swiping"></div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="fixed-wrapper">
@@ -153,30 +151,7 @@
         <div class="hot-city">
             <dl class="city-box">
                 <dt class="title">热门城市</dt>
-                <dd class="city-list">
-                    <a href="javascript:;" class="city">重庆</a>
-                    <a href="javascript:;" class="city">上海</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                </dd>
+                <dd class="city-list" id="city-list"></dd>
             </dl>
         </div>
     </div>
@@ -283,6 +258,11 @@
     </div>
 </div>
 {{/each}}
+</script>
+<script type="text/html" id="templateCity">
+    {{each list val key}}
+    <a href="javascript:;" class="city">{{val.name}}</a>
+    {{/each}}
 </script>
 <script src="javascripts/template-web.js"></script>
 <script src="javascripts/index.js"></script>
