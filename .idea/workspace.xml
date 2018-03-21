@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d86d706e-0c0d-441b-a691-3c6d7c11a80f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/app.js" afterPath="$PROJECT_DIR$/daowe_pro/app.js" />
-      <change beforePath="$PROJECT_DIR$/daowe_pro/readme.md" afterPath="$PROJECT_DIR$/daowe_pro/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -331,17 +329,6 @@
               <item name="pc_daowei" type="b2602c69:ProjectViewProjectNode" />
               <item name="pc_daowei" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pc_daowei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_daowei" type="462c0819:PsiDirectoryNode" />
-              <item name="daowe_pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pc_daowei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pc_daowei" type="462c0819:PsiDirectoryNode" />
-              <item name="daowe_pro" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -402,16 +389,15 @@
       <workItem from="1521479993874" duration="4676000" />
       <workItem from="1521523072433" duration="5348000" />
       <workItem from="1521594438588" duration="7776000" />
-      <workItem from="1521611778525" duration="8794000" />
+      <workItem from="1521611778525" duration="8908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91217000" />
+    <option name="totallyTimeSpent" value="91331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="319" y="33" width="1495" height="1066" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25686136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -421,7 +407,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39217877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33137044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2905028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2905028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />

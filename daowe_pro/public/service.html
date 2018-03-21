@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.bootcss.com/normalize/8.0.0/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylus/service.css">
+    <title>Title</title>
+</head>
+<body>
+<header class="home-header">
+    <div class="header-box">
+        <div class="header-logo">
+            <a class="nav-link" href="javascript:;">
+                <img src="./images/homepage/header-logo@2x.png" alt="logo">
+            </a>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item city">
+                <a class="nav-link" href="javascript:;">
+                    <img src="./images/homepage/header-icon@2x.png" alt="icon" class="icon">
+                    <span class="city">北京</span>
+                    <span class="switch">切换城市</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;" >
+                    首页
+                </a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="javascript:;">
+                到位APP
+            </a></li>
+            <li class="nav-item">
+                <a class="nav-link on" href="javascript:;">
+                    服务商
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;">
+                    商家入驻
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;">
+                    风物APP
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;">
+                    关于我们
+                </a>
+            </li>
+            <li class="nav-item shangjia">
+                <a class="nav-link" href="javascript:;">
+                    商家登录
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+<main class="service-content">
+    <div class="to-center">
+        <p class="title">服务商</p>
+        <div class="service-left">
+            <div class="service-box" id="service-box"></div>
+            <button id="show-more">
+                查看更多商家
+                <img src="./images/service/fuwu_down2.jpg" class="down">
+            </button>
+        </div>
+        <div class="service-right">
+            <img src="./images/service/adv1.jpg"  class="adv">
+            <div class="app-box">
+                <img src="./images/service/daowayApp.png" class="app">
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="home-footer">
+    <div class="description-box">
+        <div class="description">
+            <p class="daowei-promise">
+                到位<span class="color">服务</span>保障
+            </p>
+            <p class="details">
+                到位品台担保交易安全， 交易未成功100%退款
+            </p>
+            <div class="icons">
+                <ul class="icon-list">
+                    <li class="icon-item">
+                        <img src="./images/homepage/anquan.jpg" alt="icon" class="icon">
+                        优选服务
+                    </li>
+                    <li class="icon-item">
+                        <img src="./images/homepage/anquan.jpg" alt="icon" class="icon">
+                        全程保障
+                    </li>
+                    <li class="icon-item">
+                        <img src="./images/homepage/anquan.jpg" alt="icon" class="icon">
+                        安全无忧
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hot-city">
+            <dl class="city-box">
+                <dt class="title">热门城市</dt>
+                <dd class="city-list">
+                    <a href="javascript:;" class="city">重庆</a>
+                    <a href="javascript:;" class="city">上海</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                    <a href="javascript:;" class="city">广州</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="cooperation-box">
+        <p class="copyrights">
+            <small>&copy;2015 版权所有 到位 daoway.com</small>
+            京ICP备 15001471号-1 北京邻家科技有限公司
+        </p>
+    </div>
+</footer>
+<script type="text/html" id="template">
+    <ul class="service-wrapper">
+        {{each list val key}}
+        <li class="service-item">
+            <img src={{val.imgUrl}}>
+            <p class="description">
+                <img src="./images/service/home1.png"  class="home">
+                {{val.title}}
+            </p>
+            <p class="order-rate">
+                <span class="order">已接单{{val.orderCount}}单</span>
+                <span class="rate">好评率{{val.positiveRate}}%</span>
+            </p>
+        </li>
+        {{/each}}
+    </ul>
+</script>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="javascripts/template-web.js"></script>
+<script src="javascripts/service.js"></script>
+</body>
+</html>

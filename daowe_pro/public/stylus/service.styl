@@ -1,0 +1,66 @@
+@import 'mixins.styl'
+@import 'index.styl'
+
+
+.service-content
+  text-align left
+  child-to-center()
+  background #e5e5e5
+  .to-center
+    overflow hidden
+    .title
+      font-size 22px
+      font-weight bold
+      margin 30px 0
+    .service-left
+      width 970px
+      float left
+      .service-wrapper
+        overflow hidden
+        .service-item
+          height 300px
+          width 232px
+          padding 10px
+          margin 0 10px 10px 0
+          float left
+          box-sizing border-box
+          border 1px solid #888;
+          background #fff
+          >img
+            width 210px
+            height 210px
+          .description
+            img
+              margin-top -2px
+            font-weight bold
+
+          .order-rate
+            font-size 13px
+            color #aaa;
+            .rate
+              float right
+      #show-more
+        display block
+        margin 50px auto
+        width 200px
+        height 50px
+        border-radius 4px
+        background #fff;
+        outline none
+        border 1px solid #888888
+        color #aaa;
+    .service-right
+      float left
+      width 230px
+      .adv
+        width 230px
+        height 300px
+      .app-box
+        margin-top 10px
+        height 290px
+        background url("../images/service/appbox.jpg")
+        img
+          width 130px
+          margin 50px 0 0 50px
+
+
