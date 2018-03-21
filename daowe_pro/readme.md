@@ -40,6 +40,11 @@
             但是无法禁止交互！
             noSwiping true,
             但是没有效！
+    ### 关于图片居中
+        + 1. 将图片作为背景，background-position center
+             此方法可以将任意图片居中，不用考虑是否溢出！
+
+        - 2. 使用定位，transform 50%
 
     ### 第二天
         + 关于package-lock.json
@@ -48,4 +53,13 @@
             但是某些版本可能会有问题，会将原来的依赖缓存删除，但是
             npm start是按照package-lock.json寻找，
             出现找不到依赖的情况！
-        - 2
+        - 2 access-allow-control-origin
+            解决跨域问题
+        * 3 关于pre标签（预设文本！）
+            white-space pre
+            保留预设文本，与pre标签效果一致！
+                wrap
+                nowrap
+                pre
+                pre-line 保留换行符（换行符正常，不合并）
+                pre-wrap 保留空白符（空格符正常，不合并）

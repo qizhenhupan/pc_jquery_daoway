@@ -31,6 +31,12 @@ app.use(cookieParser());
 //cookies
 app.use(express.static(path.join(__dirname, 'public')));
 
+//解决跨域问题
+app.use(function(req,res,next){
+  res.set('Access-Control-Allow-Origin','*');
+  next();
+});
+
 app.use('/', index);
 app.use('/users', users);
 
