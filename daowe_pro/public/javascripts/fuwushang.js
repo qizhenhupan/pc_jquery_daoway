@@ -25,6 +25,7 @@ $(function(){
                 return c
             });
             //注册过滤器
+            console.log(data)
             template.defaults.imports.dateFormat = function(date,format){
                 return moment(date).format(format)
             };
@@ -99,10 +100,29 @@ $(function(){
             if(nextPage===1){
                 $children.first().addClass('disabled');
             }
-
             getComment(nextPage);
         });
     }
+    function appendCityTemplate(){
+        var $cityList = $('#city-list');
+        $.get('/getCity',function(data){
+            console.log('city',data);
+            var t = template('templateCity',{list:data});
+            $cityList.html(t)
+        });
+    }
+    function appendItem(){
+        var $name = $('#shop-name');
+        var $detail = $('#item-detail');
+        $.get('/getItem',function(data){
+            var tName = template('name-template',{item:data});
+            var tDetail = template('detail-template',{item:data});
+            $name.append(tName);
+            $detail.html(tDetail);
+        });
+    }
+    appendItem();
+    appendCityTemplate();
     bindPaginationClick();
     getComment();
     qrCode();

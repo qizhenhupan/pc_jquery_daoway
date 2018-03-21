@@ -32,6 +32,15 @@ $(function(){
             }
         });
     }
+    function appendCityTemplate(){
+        var $cityList = $('#city-list');
+        $.get('/getCity',function(data){
+            console.log('city',data);
+            var t = template('templateCity',{list:data});
+            $cityList.html(t)
+        });
+    }
+    appendCityTemplate();
     fixedHeader();
     appendTemplate();
 });

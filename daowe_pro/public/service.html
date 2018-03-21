@@ -105,30 +105,7 @@
         <div class="hot-city">
             <dl class="city-box">
                 <dt class="title">热门城市</dt>
-                <dd class="city-list">
-                    <a href="javascript:;" class="city">重庆</a>
-                    <a href="javascript:;" class="city">上海</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                    <a href="javascript:;" class="city">广州</a>
-                </dd>
+                <dd class="city-list" id="city-list"></dd>
             </dl>
         </div>
     </div>
@@ -158,6 +135,11 @@
 </script>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="javascripts/template-web.js"></script>
+<script type="text/html" id="templateCity">
+    {{each list val key}}
+    <a href="javascript:;" class="city">{{val.name}}</a>
+    {{/each}}
+</script>
 <script src="javascripts/service.js"></script>
 </body>
 </html>

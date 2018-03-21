@@ -1,0 +1,117 @@
+@import 'mixins.styl'
+@import 'fuwushang.styl'
+
+.item-content
+  background #e5e5e5
+  child-to-center()
+  margin-bottom 30px
+  .category-title
+    font-size 14px
+  .content-wrapper
+    overflow hidden
+    .left
+      width 960px
+      float left
+      >*
+        border 1px solid #bbb
+        background #fff
+      .profile
+        overflow hidden
+        height 220px
+        p
+          margin 10px 0
+        .img
+          float left
+          width 160px
+          height 160px
+          margin 30px
+        .content
+          float left
+          color #000
+          padding-top 20px
+          >p
+            margin 20px 0
+          .num,.time
+            color red
+          .title
+            font-size 18px
+          .price
+            font-size 16px
+            .num,.time
+              font-weight bold
+            .num
+              font-size 22px
+            .old-price
+              margin-left 15px
+              color #888
+          .count
+            font-size 14px
+            .num
+              font-size 16px
+        .qrcode
+          font-weight bold
+          text-align center
+          float right
+          margin 20px 60px 0 0
+          .reserve
+            font-size 17px
+            color red;
+      .detail
+        margin-top 20px
+        padding 20px
+        h3.title
+          line-height 30px
+          span
+            padding-bottom 5px
+            border-bottom 4px solid red
+        pre.text
+          margin 0;
+          white-space pre
+        .service-time
+          .time
+            color red
+        .should-know
+          .text
+            line-height 24px
+            font-size 14px
+            padding 5px
+            background lightpink
+        .info
+          .text
+            font-size 15px
+            line-height 20px
+    .right
+      width 230px
+      float right;
+      >*
+        background #fff
+      .server
+        border 1px solid #bbb
+        overflow hidden
+        text-align center
+        >.title
+          text-align left
+          padding 20px 0 20px  15px
+          line-height 30px
+          margin 0
+          border-bottom 1px solid #bbb
+        .img
+          margin-top 30px
+          width 80px
+          height 80px
+        p
+          overflow hidden
+          padding 0 15px
+          &>.name
+            float left
+          &>.num
+            color red
+            float right
+      .app
+        height 290px
+        margin-top 20px
+        background url("../images/service/appbox.jpg") 100% no-repeat;
+        .img
+          margin 50px 0 0 50px
+          width 130px
+          height 130px

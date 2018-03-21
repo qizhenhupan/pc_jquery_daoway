@@ -22,14 +22,6 @@ $(function(){
             }
         });
     }
-    function appendCityTemplate(){
-        var $cityList = $('#city-list');
-        $.get('/getCity',function(data){
-            console.log('city',data);
-            var t = template('templateCity',{list:data});
-            $cityList.html(t)
-        });
-    }
     function appendHomePageTemplate(){
         $.get('/getShop',function(data,err){
             var t = template('templateList',{
@@ -38,6 +30,14 @@ $(function(){
             $('#service-list').html(t)
                 .find('.home-service-box:odd')
                 .addClass('color')
+        });
+    }
+    function appendCityTemplate(){
+        var $cityList = $('#city-list');
+        $.get('/getCity',function(data){
+            console.log('city',data);
+            var t = template('templateCity',{list:data});
+            $cityList.html(t)
         });
     }
     appendCityTemplate();
